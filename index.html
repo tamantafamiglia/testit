@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ESAD - Design numérique - Workshops Test-it !</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="cssbox.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,400;1,200;1,400&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    
+     <!-- une div qui contient tout-->
+    <div id="wrapper">
+      
+       <!-- la navigation= : bouton/titre et menu/liste -->
+      <nav>
+        <div id="openbtn" onclick="openNav()"><span>&#9776;</span> Test-it !</div>
+        
+        <div id="menu">
+          <div id="closebtn" onclick="closeNav()"><span>&times;</span> Test-it !</div>
+          <ul>
+            <li onclick="openpage(0), closeNav()"><strong>welcome !</strong></li>
+            <li onclick="openpage(1), closeNav()"><em>Sonogramme</em></li>
+            <li onclick="openpage(2), closeNav()"><em>« Je ne suis pas sûr »</em></li>
+            <li onclick="openpage(3), closeNav()"><em>Figma - Form design</em></li>
+            <li onclick="openpage(4), closeNav()"><em>Artivive - AR</em></li>
+          </ul>
+        </div>
+      </nav>
+      
+   <!-- ici la div qui contient la page qui va être chargée -->
+      <div id="content">
+        <div id="home"><h1>🍭</h1> <p><em>Test-it !</em> est une série d’ateliers au format court, en 3 séances :</p> <ol><li>Présentation/exploration</li> <li>Proposition/itération</li><li>Production/restitution</li></ol> <p>Le travail peut s’effectuer en groupe ou individuellement et consiste en une recherche récréative autour d’un outil, un support ou une technologie à explorer. Les voies d’expérimentation sont souvent multiples. Les étudiants peuvent ainsi, selon leur inspiration, développer un projet ou restituer une série d’explorations.</p>
+          <p>Ces ateliers portent sur différents champs en devenir du design numérique, complémentaires à leur cours de webdesign. Les étudiants exploreront d’autres formes d’interactivité et de relation entre les objets et d’autres médias. Tantôt, cette relation portera sur l’image, le son ou l’animation. Tantôt par le biais de la réalité augmentée, de l’intelligence artificielle. Parfois dans une dimension performative en utilisant le smartphone de l’utilisateur et d’autres fois, en revenant à de simples questions de narration du web sur son ordinateur personnel…
+          </p></div>
+    
+    </div>
+
+    
+
+    <!-- On importe le javascript -->
+    <script src="script.js" defer></script>
+  </body>
+</html>
